@@ -13,6 +13,7 @@ import { MatMenuModule } from "@angular/material/menu";
     BrowserAnimationsModule,
     MatButtonModule ,
     MatMenuModule
-  ]
+  ],
+  exports: [MenuComponent]
 })
 export class LayoutModule { }
